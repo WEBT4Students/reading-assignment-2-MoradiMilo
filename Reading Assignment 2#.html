@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheet Sheet</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .headline{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(15, 3, 63);
+        font-size: 35px;
+        text-decoration: underline;
+    }
+    .Name{
+        font-size: 13px;
+        color: rgb(16, 16, 34);
+        text-align: center;
+    }
+    a:visited{
+        color: brown;
+    }
+    a:active{
+        color:aliceblue;
+    }
+    .parts{
+        font-size: 27px;
+        color: rgb(111, 111, 111);
+        text-decoration: underline;    
+    }
+    .quetion{
+        font-size: 18px;
+        color: black;
+    }
+    .answers{
+        font-size: 18px;
+        color: rgb(10, 42, 10);
+    }
+    ul{
+        font-size: 18px;
+        color: rgb(22, 39, 135);
+        color: rgb(87, 0, 0);
+    }
+</style>
+<body>
+    <h4 class="Name">Amirhossein Mohamadi-----------------------------------2DHIF-------------------------------------11.10.2022</h4>
+    <h1 class="headline">Assignment 2</h1>
+    <p class = "quetion">1. Name the components of html elements properly</p>
+    <p class="answers">An HTML element is defined by a start tag, some content, and an end tag.</p>
+    <p class="quetion">2. Identify void elements and how they are denoted</p>
+    <p class = "answers">A void element is an element whose content model never allows it to have contents under any circumstances. Void elements can have attributes. The following is a complete list of the void elements in HTML : area , base , br , col , command , embed , hr , img , input , keygen , link , meta , param , source , track , wbr.</p>
+    <img src="void-elements.png" alt="Void Element" width="700" height="350">
+    <p class="quetion">3. Identify attributes</p>
+        <ul>
+            <li>All HTML elements can have attributes</li>
+            <li>Attributes provide additional information about elements</li>
+            <li>Attributes are always specified in the start tag</li>
+            <li>Attributes usually come in name/value pairs like: name="value"</li>
+        </ul>
+        <p class="answers">The *a* tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to a URL <br>
+            The *img* tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed</p> 
+    <p class="quetion">4. Write down the correct DOCTYPE declaration for html</p>
+    <ul>
+        <li>The !DOCTYPE declaration represents the document type, and helps browsers to display web pages correctly.
+
+            It must only appear once, at the top of the page (before any HTML tags).</li>
+        <li>The !DOCTYPE declaration is not case sensitive.</li>
+        <br> <img src="Doctype.png" alt="Doctype declaration" width="700" height="350">
+    </ul>
+    <p class="quetion">5. Write down syntactically correct statements for the following elements <br>
+    <img src="5.png" alt="Answer 5."></p>
+
+    <article>Css
+        <p class="quetion">1. Name the components of a css rule properly</p>
+        <p class="answers">A CSS Syntax rule consists of a selector, property, and its value. The selector points to the HTML element where CSS style is to be applied. The CSS property is separated by semicolons.</p>
+        <p class="quetion">2. Use combinators properly: direct child, descendant, adjacent sibling, sibling</p>
+        <p class="answers"></p>
+        <ul>
+            <li>direct child: The child combinator ( > ) is placed between two CSS selectors. It matches only those elements matched by the second selector that are the direct children of elements matched by the first. <br>
+            <img src="child combinator.png" alt="child combinator"> </li>
+            <li>descendant: ypically represented by a single space (" ") character — combines two selectors such that elements matched by the second selector are selected if they have an ancestor (parent, parent's parent, parent's parent's parent, etc.) element matching the first selector. Selectors that utilize a descendant combinator are called descendant selectors. <br>
+            <img src="Descendant.png" alt="Descendant"></li>
+            <li>adjacent sibling: The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element. <br>
+            <img src="adjacent-sibling.png" alt="adjacent-sibling"></li>
+            <li>The general sibling combinator: The general sibling combinator (~) separates two selectors and matches all iterations of the second element, that are following the first element (though not necessarily immediately), and are children of the same parent element. <br>
+            <img src="general-sibling.png" alt=""></li>
+        </ul>
+        <p class="quetion">3. Specify colors by color names and in hexadecimal notation</p>
+        <p class="answers">Weiß: #FFFFFF; schwarz: #000000; Rot: #FF0000; Gelb: #FFFF00; Grün: #008000; Blau: #0000FF; Lila: #800080</p>
+        <p class="question">4. Declarations for color, background color</p>
+        <ul>
+            <li>background <br> <img src="Backgro.png" alt="Background Decleration"></li>
+            <li>color <br> <img src="TextColor.png" alt=""></li>
+        </ul>
+        <p class="question">5. Pseudo classes for the <a> element <br>
+        <img src="a.png" alt=""></p>
+        <p class="question">6. Declaration for background image</p>
+        <p class="answers">The background-image property specifies an image to use as the background of an element.
+            By default, the image is repeated so it covers the entire element. <br><img src="back.png" alt=""></p>
+        <p class="quetion">7. Declaration for text alignment (left, right, center, justify)</p>
+        <p class="answers">The text-align property is used to set the horizontal alignment of a text.
+            A text can be left or right aligned, centered, or justified.<br><img src="text-ailignment.png" alt=""></p>
+        <p class="quetion">8. Declaration for text decoration (overline, underline, line-through)</p>
+        <p class="answers">The text-decoration-line property is used to add a decoration line to text.<br><img src="text-decoraton.png" alt=""></p>
+        <p class="quetion">9. Declaration for text transformation (uppercase, lowercase, capitalize)</p>
+        <p class="answers">The text-transform property is used to specify uppercase and lowercase letters in a text.
+            It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word:<br><img src="text-transformation.png" alt=""></p>
+        <p class="quetion">10. Identify the difference between serif and sans-serif fonts</p>
+        <p class="answers"> <ul>
+                                <li>Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.</li>
+                                <li>Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.</li>
+                            </ul>
+        </p>
+        <p class="quetion">11. Declarations for font families</p>
+        <p class="answers">The font-family property should hold several font names as a "fallback" system, to ensure maximum compatibility between browsers/operating systems. Start with the font you want, and end with a generic family (to let the browser pick a similar font in the generic family, if no other fonts are available). The font names should be separated with comma.
+            <br> <img src="font-family.png" alt=""></p>
+        <p class="quetion">12. Declarations for font style normal and italic</p>
+        <p class="answers"> <ul>
+                                <li>normal - The text is shown normally</li>
+                                <li>italic - The text is shown in italics</li>
+                            </ul>
+        </p>
+        <p class="quetion">13. Declarations for font sizes</p>
+        <p class="answers">The font-size property sets the size of the text.
+
+            Being able to manage the text size is important in web design. However, you should not use font size adjustments to make paragraphs look like headings, or headings look like paragraphs. <br>
+            
+            Always use the proper HTML tags, like h1 - h6 for headings and p for paragraphs. <br>
+            
+            The font-size value can be an absolute, or relative size. <br>
+            Absolute Size:
+            <ul>
+                <li>Sets the text to a specified size</li>
+                <li>Does not allow a user to change the text size in all browsers (bad for accessibility reasons)</li>
+                <li>Absolute size is useful when the physical size of the output is known</li>
+            </ul>
+            Relative Size:
+            <ul>
+                <li>Sets the size relative to surrounding elements</li>
+                <li>Allows a user to change the text size in browsers</li>
+            </ul>
+            You can also set font-size in pixel, cm, mm, em, ... .
+        </p>
+        <p class="quetion">14. Declarations for font weights</p>
+        <p class="answers">The font-weight property sets how thick or thin characters in text should be displayed.
+            <br> <img src="font-weights.png" alt="">
+        </p>
+    </article>
+</body>
+</html>
